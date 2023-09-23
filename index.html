@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
@@ -35,6 +36,11 @@
                     </li>
                 </ul>
             </nav>
+            <button class="burger-menu-btn" data-menu-open>
+                <svg class="burger-menu-btn-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-burger-menu"></use>
+                </svg>
+            </button>
             <address class="nav-address-page">
                 <ul class="address-list">
                     <li><a class="header-address-link current-address-link"
@@ -47,7 +53,7 @@
     </header>
     <!--Main-->
     <main>
-        <!--First section-->
+        <!-- Hero -->
         <section class="hero">
             <div class="container hero-container">
                 <h1 class="hero-text">Effective Solutions for Your Business</h1>
@@ -55,7 +61,7 @@
             </div>
         </section>
         <!--Second section-->
-        <section class="second-section">
+        <!-- <section class="second-section">
             <div class="container second-section-cont">
                 <h2 class="visually-hidden">Features</h2>
                 <ul class="features-list">
@@ -107,9 +113,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!--Third section-->
-        <section class="third-section">
+        <!-- <section class="third-section">
             <div class="container third-section-cont">
                 <h2 class="our-team-title">Our Team</h2>
                 <ul class="third-section-list">
@@ -266,9 +272,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!--Fourth section-->
-        <section class="fourth-section">
+        <!-- <section class="fourth-section">
             <div class="container">
                 <h2 class="our-portfolio-title">Our Portfolio</h2>
                 <ul class="fourth-section-list">
@@ -358,9 +364,9 @@
                 </ul>
             </div>
         </section>
-    </main>
-    <!--Footer-->
-    <footer class="footer-field">
+    </main> -->
+        <!--Footer-->
+        <!-- <footer class="footer-field">
         <div class="container footer-field-container">
             <div class="footer-field-content">
                 <a class="logo footer-logo" href="">Web<span class="logo-studio-footer">Studio</span></a>
@@ -406,87 +412,134 @@
                 </form>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
-    <!-- Backdrop with modal window-->
+        <!-- Backdrop with modal window-->
 
-    <div class="backdrop">
-        <div class="modal">
-            <!-- <svg class="icon-close-svg-bg">
-                <use href="./images/icons.svg#icon-close-svg-bg"></use>
-            </svg> -->
-            <button class="close-button" type="button">
-                <svg class="close-svg" width="8" height="8">
+        <!-- <div class="backdrop">
+            <div class="modal">
+                <button class="close-button" type="button">
+                    <svg class="close-svg" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <p class="modal-cont-text">Leave your contacts and we will call you back</p>
+                <form> -->
+        <!--Inputs-->
+        <!-- <div class="form-input-cont">
+                        <label class="model-form-input-label" for="user-name">Name</label>
+                        <div class="input-form-cont">
+                            <input class="model-form-input" name="user-name" id="user-name" type="text">
+                            <svg class="model-form-input-svg" width="18" height="24">
+                                <use href="./images/icons.svg#icon-person"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="form-input-cont">
+                        <label class="model-form-input-label" for="user-tel">Phone</label>
+                        <div class="input-form-cont">
+                            <input class="model-form-input" name="model_tel_input" id="user-tel" type="tel">
+                            <svg class="model-form-input-svg" width="18" height="24">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="form-input-cont">
+                        <label class="model-form-input-label" for="user-email">Email</label>
+                        <div class="input-form-cont">
+                            <input class="model-form-input" name="model_email_input" id="user-email" type="email">
+                            <svg class="model-form-input-svg" width="18" height="24">
+                                <use href="./images/icons.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="model-form-textarea-cont">
+                        <label class="model-form-input-label" for="user-comment">Comment</label>
+                        <textarea class="model-form-textarea" name="user-comment" id="user-comment"
+                            placeholder="Text input"></textarea>
+                    </div> -->
+        <!--Privacy Policy-->
+        <!-- <div class="model-form-checkbox-cont">
+                        <input class="model-cont-checkbox visually-hidden" type="checkbox" name="user-privacy"
+                            id="user-privacy" value="true">
+
+                        <label class="model-cont-checkbox-text" for="user-privacy">
+                            <span class="model-form-checkbox-border">
+                                <svg class="model-form-checkbox-agreed-svg" width="10" height="8">
+                                    <use href="./images/icons.svg#icon-agreed-mark"></use>
+                                </svg>
+                            </span>
+                            I accept the terms and conditions of the
+                            <a class="model-cont-checkbox-text-span" href="">Privacy Policy</a>
+                        </label>
+                    </div>
+                    <button class="model-form-btn"><span class="button-form-span">Send</span></button>
+                </form>
+            </div>
+        </div> -->
+
+        <!-- mobile menu -->
+
+        <div class="mobile-menu" data-menu>
+            <button class="mobile-menu-close-btn" type="button" data-menu-close>
+                <svg class="mobile-menu-close-btn-svg" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
-            <p class="modal-cont-text">Leave your contacts and we will call you back</p>
-            <form>
-                <!--Inputs-->
-                <div class="form-input-cont">
-                    <label class="model-form-input-label" for="user-name">Name</label>
-                    <div class="input-form-cont">
-                        <input class="model-form-input" name="user-name" id="user-name" type="text">
-                        <svg class="model-form-input-svg" width="18" height="24">
-                            <use href="./images/icons.svg#icon-person"></use>
+            <ul class="mobile-menu-list">
+                <li class="mobile-menu-list-item">
+                    <a class="mobile-menu-list-item-link current-color" href="./index.html">Studio</a>
+                </li>
+
+                <li class="mobile-menu-list-item">
+                    <a class="mobile-menu-list-item-link" href="">Portfolio</a>
+                </li>
+
+                <li class="mobile-menu-list-item">
+                    <a class="mobile-menu-list-item-link" href="">Contacts</a>
+                </li>
+            </ul>
+            <ul class="mobile-menu-address-list">
+                <li><a class="mobile-menu-address-list-item current-number-color" href="tel:+110001111111">+11 (000)
+                        111-11-11</a></li>
+                <li><a class="mobile-menu-address-list-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
+            <ul class="mobile-menu-social-links">
+                <li class="social-links-item">
+                    <a class="social-links-item-link" href=""><svg class="social-links-item-link-icon" width="24"
+                            height="24">
+                            <use href="./images/icons.svg#icon-instagram"></use>
                         </svg>
-                    </div>
-                </div>
-
-                <div class="form-input-cont">
-                    <label class="model-form-input-label" for="user-tel">Phone</label>
-                    <div class="input-form-cont">
-                        <input class="model-form-input" name="model_tel_input" id="user-tel" type="tel">
-                        <svg class="model-form-input-svg" width="18" height="24">
-                            <use href="./images/icons.svg#icon-phone"></use>
+                    </a>
+                </li>
+                <li class="social-links-item">
+                    <a class="social-links-item-link" href=""><svg class="social-links-item-link-icon" width="24"
+                            height="24">
+                            <use href="./images/icons.svg#icon-twitter"></use>
                         </svg>
-                    </div>
-                </div>
-
-                <div class="form-input-cont">
-                    <label class="model-form-input-label" for="user-email">Email</label>
-                    <div class="input-form-cont">
-                        <input class="model-form-input" name="model_email_input" id="user-email" type="email">
-                        <svg class="model-form-input-svg" width="18" height="24">
-                            <use href="./images/icons.svg#icon-email"></use>
+                    </a>
+                </li>
+                <li class="social-links-item">
+                    <a class="social-links-item-link" href=""><svg class="social-links-item-link-icon" width="24"
+                            height="24">
+                            <use href="./images/icons.svg#icon-facebook"></use>
                         </svg>
-                    </div>
-                </div>
-
-                <div class="model-form-textarea-cont">
-                    <label class="model-form-input-label" for="user-comment">Comment</label>
-                    <textarea class="model-form-textarea" name="user-comment" id="user-comment"
-                        placeholder="Text input"></textarea>
-                </div>
-                <!--Privacy Policy-->
-                <div class="model-form-checkbox-cont">
-                    <input class="model-cont-checkbox visually-hidden" type="checkbox" name="user-privacy"
-                        id="user-privacy" value="true">
-
-                    <label class="model-cont-checkbox-text" for="user-privacy">
-                        <span class="model-form-checkbox-border">
-                            <svg class="model-form-checkbox-agreed-svg" width="10" height="8">
-                                <use href="./images/icons.svg#icon-agreed-mark"></use>
-                            </svg>
-                        </span>
-                        I accept the terms and conditions of the
-                        <a class="model-cont-checkbox-text-span" href="">Privacy Policy</a>
-                    </label>
-
-
-
-                    <!-- <svg class="model-form-checkbox-agreed-svg" width="16px" height="16px">
-                            <use href="./images/icons.svg#icon-agreed-mark"></use>
-                        </svg> -->
-
-
-
-                </div>
-                <button class="model-form-btn"><span class="button-form-span">Send</span></button>
-            </form>
+                    </a>
+                </li>
+                <li class="social-links-item">
+                    <a class="social-links-item-link" href=""><svg class="social-links-item-link-icon" width="24"
+                            height="24">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </div>
-
+        <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
